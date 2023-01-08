@@ -1,6 +1,6 @@
-use std::collections::LinkedList;
 use std::collections::HashMap;
 use std::collections::HashSet;
+use std::collections::LinkedList;
 
 fn main() {
     // LinkedList can be created using various ways
@@ -24,10 +24,11 @@ fn main() {
     i.push_front(3);
     i.push_front(4);
     i.push_front(5);
+    i.push_back(6);
     println!("Contents of LinkedList i: {:?}", i);
 
     // apply some transformation on each element of LinkedList
-    i.iter().map(|x| x*2).for_each(|y| println!("{}, ", y));
+    i.iter().map(|x| x * 2).for_each(|y| println!("{}, ", y));
 
     // find sum of all elements in a LinkedList
     let s1: i32 = i.iter().sum();
@@ -39,7 +40,7 @@ fn main() {
 
     // Create HashMap out from a LinkedList
     // Following operation will create a HashMap with each LinkedList element as Key and len as Value
-    let s3: LinkedList<_> = vec!["Rust", "is", "awesome"].into_iter().collect();    
+    let s3: LinkedList<_> = vec!["Rust", "is", "awesome"].into_iter().collect();
     let hm1: HashMap<_, _> = s3.iter().map(|x| (x, x.len())).collect();
     println!("HashMap -> {:?}", hm1);
 

@@ -29,26 +29,15 @@ fn main() {
     i.push_front(40);
     i.push_back(5);
     i.push_front(50);
-    println!("Contents of VecDeque from rear-end {:?}", i);
+    println!("Contents of VecDeque {:?}", i);
     println!("Poping elements from VecDeque (front): ");
     if let Some(top) = i.pop_front() {
         println!("{top}");
     }
-    println!("Poping elements from VecDeque (back): ");
+    println!("Poping elements from VecDeque (rear): ");
     if let Some(top) = i.pop_back() {
         println!("{top}");
     }
-    println!("Contents of VecDeque from front-end {:?}", i);
-    println!("Poping elements from VecDeque (front): ");
-    if let Some(top) = i.pop_front() {
-        println!("{top}");
-    }
-    println!("Poping elements from VecDeque (back): ");
-    if let Some(top) = i.pop_back() {
-        println!("{top}");
-    }
-
-    println!("Contents of VecDeque from front-end {:?}", i);
 
     // apply some transformation on each element of VecDeque
     i.iter().map(|x| x * 2).for_each(|y| println!("{}, ", y));
