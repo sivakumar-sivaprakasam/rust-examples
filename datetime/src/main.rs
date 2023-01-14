@@ -69,4 +69,24 @@ fn main() {
     } else {
         println!("{dt1:?} and {dt2:?} are NOT same");
     }
+
+    // Formatting DateTime
+    let curr_time = SystemTime::now();
+    let dt: DateTime<Utc> = curr_time.clone().into();
+    println!("Date in mm/dd/yy format: {}", dt.format("%D"));
+    println!("Date in yyyy-mm-dd format: {}", dt.format("%F"));
+    println!("Date in d-MMM-yyyy format: {}", dt.format("%v"));
+    println!("Date in Day, dd-mm-yyyy format: {}", dt.format("%a, %d-%M-%Y"));
+    println!("Date in Day, dd-mm-yyyy format: {}", dt.format("%A, %d-%M-%Y"));
+    println!("Date in Full Week Day, dd-MMM-yyyy format: {}", dt.format("%A, %d-%b-%Y"));
+    println!("Date in Full Week Day, dd-MMMM-yyyy format: {}", dt.format("%A, %d-%B-%Y"));
+    println!("Day of the year: {}", dt.format("%j"));
+    println!("Day of the year: {}, Week day (Starting with Sunday): {}", dt.format("%j"), dt.format("%u"));
+    println!("Day of the year: {}, Week day (Starting with Monday): {}", dt.format("%j"), dt.format("%w"));
+    println!("Time in 24-hour format HH:mm:ss: {}", dt.format("%H:%M:%S"));
+    println!("Time in 12-hour format HH:mm:ss: {}", dt.format("%I:%M:%S"));
+    println!("Time in 12-hour format HH:mm:ss <AM/PM>: {}", dt.format("%I:%M:%S %p"));
+    println!("Time in 12-hour format HH:mm:ss <AM/PM> TZ: {}", dt.format("%I:%M:%S %p %:z"));
+    println!("Date and Time: {}", dt.format("%c"));
+    println!("Date and Time in ISO 8601/RFC 3339 format: {}", dt.format("%+"));
 }
