@@ -1,0 +1,11 @@
+c:\rust-examples\datetime\target\debug\deps\parse_zoneinfo-7110a8b0f43c688a.rmeta: C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\lib.rs C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\line.rs C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\structure.rs C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\table.rs C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\transitions.rs
+
+c:\rust-examples\datetime\target\debug\deps\libparse_zoneinfo-7110a8b0f43c688a.rlib: C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\lib.rs C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\line.rs C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\structure.rs C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\table.rs C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\transitions.rs
+
+c:\rust-examples\datetime\target\debug\deps\parse_zoneinfo-7110a8b0f43c688a.d: C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\lib.rs C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\line.rs C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\structure.rs C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\table.rs C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\transitions.rs
+
+C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\lib.rs:
+C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\line.rs:
+C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\structure.rs:
+C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\table.rs:
+C:\Users\bhagirathi\.cargo\registry\src\github.com-1ecc6299db9ec823\parse-zoneinfo-0.3.0\src\transitions.rs:
