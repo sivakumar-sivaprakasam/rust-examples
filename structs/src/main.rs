@@ -5,6 +5,11 @@ fn main() {
     println!("{}", e);
     println!("{:?}", e);
     println!("{:#?}", e);
+
+    let ts = TupleStruct("John".to_string(), 30, "HR".to_string());
+    println!("{}", ts);
+    println!("{:?}", ts);
+    println!("{:#?}", ts);
 }
 
 struct Employee {
@@ -35,6 +40,28 @@ impl Display for Employee {
             f,
             "Employee [Name: {}, Age: {}, Department: {}]",
             self.name, self.age, self.dept
+        )
+    }
+}
+
+struct TupleStruct(String, i32, String);
+
+impl fmt::Debug for TupleStruct {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        f.debug_struct("Employee")
+            .field("Name", &self.0)
+            .field("Age", &self.1)
+            .field("Department", &self.2)
+            .finish()
+    }
+}
+
+impl Display for TupleStruct {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        write!(
+            f,
+            "Employee [Name: {}, Age: {}, Department: {}]",
+            self.0, self.1, self.2
         )
     }
 }
