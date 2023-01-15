@@ -3,10 +3,10 @@ use num_format::ToFormattedString;
 fn main() {
     // Formatting numbers
 
-    // Returns the whole number
+    // Formatting number
     println!("{}", format!("{}", 100));
 
-    // Returns Zero-padded numbers with max 10 digits
+    // Formatting number with zero-padded
     println!("{}", format!("{:010}", 5));
 
     // Format number in binary format
@@ -29,6 +29,9 @@ fn main() {
 
     // Format decimal numbers
     println!("{}", format!("{:.5}", 100.02));
+    
+    // Format decimal numbers
+    println!("{}", format!("{:.5}", 100.02781839));
 
     // Format string `Rust is awesome` left-aligned
     println!("{}", format!("{:<20}", "Rust is awesome"));
