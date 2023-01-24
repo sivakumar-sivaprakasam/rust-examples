@@ -43,7 +43,7 @@ fn main() {
     // unwrap() method panics with a generic message
     println!("Value of variable a => {}", a.unwrap());
 
-    // unwrap_or() returns value of variable OR Ok() variant’s value
+    // unwrap_or() returns Ok() variant’s value OR specific value
     println!("Value of variable a => {}", a.unwrap_or(0));
 
     // unwrap_or_default() returns value of Ok() variant OR default value of underlying type
@@ -52,10 +52,10 @@ fn main() {
     // unwrap_or_else() returns value of Ok() variant OR returns the value of the function argument
     println!("Value of variable a => {}", a.unwrap_or_else(|x| x.len() as i32));
     
-    // expect() method panics with a provided custom message
+    // expect_err() method panics with a provided custom message
     println!("Value of variable a => {}", b.expect_err("Variable cannot be empty"));
 
-    // unwrap() method panics with a generic message
+    // unwrap_err() method panics with a generic message
     println!("Value of variable a => {}", b.unwrap_err());
 
     // Comparing Option
