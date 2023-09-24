@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: my-app
+spec:
+  template:
+    # This is the pod template
+    spec:
+      containers:
+      - name: my-app
+        image: my-app:latest
+      restartPolicy: OnFailure
+    # The pod template ends here

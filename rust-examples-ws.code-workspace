@@ -1,0 +1,83 @@
+{
+	"folders": [
+		{
+			"path": "arrays"
+		},
+		{
+			"path": "vectors"
+		},
+		{
+			"path": "vecdeque"
+		},
+		{
+			"path": "linkedlist"
+		},
+		{
+			"path": "binaryheap"
+		},
+		{
+			"path": "btreemap"
+		},
+		{
+			"path": "btreeset"
+		},
+		{
+			"path": "hashmap"
+		},
+		{
+			"path": "hashset"
+		},
+		{
+			"path": "string"
+		},
+		{
+			"path": "datetime"
+		},
+		{
+			"path": "enums"
+		},
+		{
+			"path": "expect"
+		},
+		{
+			"path": "format"
+		},
+		{
+			"path": "iter"
+		},
+		{
+			"path": "structs"
+		},
+		{
+			"path": "traits"
+		},
+		{
+			"path": "../Siva/Learning/rust/simple_twitter_rest_api"
+		},
+		{
+			"path": "options"
+		},
+		{
+			"path": "results"
+		},
+		{
+			"path": "slices"
+		},
+		{
+			"path": "macro_examples"
+		},
+		{
+			"path": "pattern-match"
+		},
+		{
+			"path": "regex"
+		},
+		{
+			"path": "userinput"
+		},
+		{
+			"path": "polars_examples"
+		}
+	],
+	"settings": {}
+}
