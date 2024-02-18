@@ -77,7 +77,21 @@
 		},
 		{
 			"path": "polars_examples"
+		},
+		{
+			"path": "pattern-matching"
+		},
+		{
+			"path": "luhn-algorithm"
+		},
+		{
+			"path": "book-store"
+		},
+		{
+			"path": "health-stats"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"explorer.sortOrder": "default"
+	}
 }
