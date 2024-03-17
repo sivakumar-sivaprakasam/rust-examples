@@ -1,6 +1,9 @@
 use rand_distr::{Distribution, Normal};
 use std::time::Instant;
 
+// This code is a clone from original implementation https://github.com/AIM-IT4/MultiLangMonteCarloSim
+// As claimed by the original author, the Rust implementation takes more time than of C++
+// Just wanted to try it in my local machine
 fn main() {
     let risk_free_rate: f64 = 0.01;
     let volatility: f64 = 0.2;
